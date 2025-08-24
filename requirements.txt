@@ -1,0 +1,14 @@
+langchain-core
+langchain-google-genai
+langgraph
+python-multipart
+python-dotenv
+fastapi
+uvicorn
+fastapi-cors
+elevenlabs
+supabase
+pydantic
+typing-extensions
+pytz
+google-generativeai
