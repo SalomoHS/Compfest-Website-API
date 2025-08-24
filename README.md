@@ -16,6 +16,7 @@
    <img alt="ElevenLabs" src="https://img.shields.io/badge/ElevenLabs-black.svg?logo=elevenlabs&logoColor=white"/>
    <img alt="Supabase" src="https://custom-icon-badges.demolab.com/badge/Supabase-white?logo=supabase&logoColor=2EAD33"/>
    <img alt="Shotstack" src="https://img.shields.io/badge/Shotstack-22ADF6?&logo=InfluxDB&logoColor=white"/>
+   <img alt="make" src="https://custom-icon-badges.demolab.com/badge/Make-6D00CC?logo=make&logoColor=fff"/>
 </p>
 
 <p align="center">
