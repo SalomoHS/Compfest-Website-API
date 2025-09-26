@@ -24,7 +24,7 @@ async def root():
 
 @app.get("/fetch_podcast")
 async def fetch_podcast():
-    podcasts = supabase.table("Podcasts").select("*, timezone, city(cityName), speaker1(speakerName), speaker2(speakerName), language(languageName)").order("createdAt",desc=True).execute().data
+    podcasts = supabase.table("Podcasts").select("*, timezone, topicId(topic), city(cityName), speaker1(speakerName), speaker2(speakerName), language(languageName)").order("createdAt",desc=True).execute().data
 
     jakarta_tz = pytz.timezone("Asia/Jakarta")
 
@@ -59,5 +59,6 @@ async def generate_podcast(
     )
 
     return {"public_url": result_url}
+
 
 
